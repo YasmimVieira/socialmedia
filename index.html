@@ -1,87 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social media</title>
 </head>
+
 <body>
 
-  Social Media Dashboard
-  Total Followers: 23,004
+  <main>
+    <header>
+      <div class="title-toggle">
+        <h1>Social Media Dashboard</h1>
+        <h6>Total Followers: 23,004</h6>
+      </div>
+    </header>
+    <main>
+      <section class="followers">
+        <div class="facebook">
+          <div class="icon">
+            <img src="/images/icon-facebook.svg" alt="Icone facebook">
+            <p>@nathanf</p>
+          </div>
+          <p>1987</p>
+          <p>f o l l o w e r s</p>
+          <p><img src="/images/icon-up.svg" alt="Icone setinha para cima"> 12 Today</p>
+        </div>
+        <div class="twitter">
+          <div class="icon">
+            <img src="/images/icon-twitter.svg" alt="Icone Twitter">
+            <p>@nathanf</p>
+          </div>
+          <p>1044</p>
+          <p>f o l l o w e r s</p>
+          <p><img src="/images/icon-up.svg" alt="Icone setinha para cima"> 99 Today</p>
+        </div>
+        <div class="instagram">
+          <div class="icon">
+            <img src="/images/icon-instagram.svg" alt="Icone instagram">
+            <p>@realnathanf</p>
+          </div>
+          <p>11k</p>
+          <p>f o l l o w e r s</p>
+          <p><img src="/images/icon-up.svg" alt="Icone setinha para cima"> 1099 Today</p>
+        </div>
+        <div class="youtube">
+          <div class="icon">
+            <img src="/images/icon-youtube.svg" alt="Icone youtube">
+            <p>Nathan F.</p>
+          </div>
+          <p>8239</p>
+          <p>f o l l o w e r s</p>
+          <p><img src="/images/icon-down.svg" alt="Icone setinha para baixo"> 144 Today</p>
+        </div>
+      </section>
 
-  Dark Mode
+      <section class="overview">
+        <h2>Overview - Today</h2>
 
-  
+        <section class="up">
+          <div class="facebook">
+            <section class="title">
+              <p>Page Views</p>
+              <img src="/images/icon-facebook.svg" alt="Icone de facebook">
+            </section>
+            <section class="text">
+              <p>87</p>
+              <p><img src="/images/icon-up.svg" alt="Icone para cima"> 303%</p>
+            </section>
+          </div>
 
-  @nathanf
-  1987
-  Followers
-  12 Today
+          <div class="facebook">
+            <section class="title">
+              <p>Likes</p>
+              <img src="/images/icon-facebook.svg" alt="Icone de facebook">
+            </section>
+            <section class="text">
+              <p>52</p>
+              <p><img src="/images/icon-down.svg" alt="Icone para baixo"> -2%%</p>
+            </section>
+          </div>
 
-  @nathanf
-  1044
-  Followers
-  99 Today
+        </section>
 
-  @realnathanf
-  11k
-  Followers
-  1099 Today
-
-  Nathan F.
-  8239
-  Subscribers
-  144 Today
-
-
-
-  Overview - Today
-
-  Page Views
-  87
-  3%
-
-  Likes
-  52
-  2%
-
-  Likes
-  5462
-  2257%
-
-  Profile Views
-  52k
-  1375%
-
-  Retweets
-  117
-  303%
-
-  Likes
-  507
-  553%
-
-  Likes
-  107
-  19%
-
-  Total Views
-  1407
-  12%
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+      </section>
+    </main>
+  </main>
 </body>
+
 </html>
