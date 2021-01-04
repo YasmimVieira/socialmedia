@@ -49,10 +49,28 @@ body {
     margin: 0;
 }
 
+header {
+    display: flex;
+}
+
+
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
 h4 {
     color: var(--light-blue-text);
 }
 
 nav {
-    padding: 2rem 0 0 7.8rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 2rem 7.8rem 0 7.8rem;
+}
+
+hr {
+    overflow: visible;
 }
