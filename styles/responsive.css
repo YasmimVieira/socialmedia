@@ -1,0 +1,39 @@
+@media (max-width: 375px) {
+
+    nav {
+        text-align: left;
+        padding-left: 1rem;
+    }
+
+    nav h1 {
+        font-size: 1.5rem;
+    }
+
+    .followers {
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .card {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .line {
+        flex-direction: column;
+    }
+
+    .overview {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .card-overview {
+        height: 25vh;
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
