@@ -5,6 +5,11 @@ input[type=checkbox] {
     margin-left: 10px;
 }
 
+.toggle {
+    display: flex;
+    align-items: center;
+}
+
 .toggle p {
     color: var(--light-blue-text);
     font-weight: 700;
