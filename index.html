@@ -4,86 +4,180 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/styles/reset.css">
+  <link rel="stylesheet" href="/styles/normalize.css">
+  <link rel="stylesheet" href="/styles/overview.css">
+  <link rel="stylesheet" href="/styles/followers.css">
+  <link rel="stylesheet" href="/styles/toggle-dark.css">
   <title>Social media</title>
 </head>
 
 <body>
+  <div class="body-top"></div>
 
   <main>
-    <header>
-      <div class="title-toggle">
-        <h1>Social Media Dashboard</h1>
-        <h6>Total Followers: 23,004</h6>
-      </div>
+    <header class="header-main">
+      <nav>
+        <h1 id="principal-title">Social Media Dashboard</h1>
+        <h4>Total Followers: 23,004</h4>
+      </nav>
     </header>
     <main>
       <section class="followers">
-        <div class="facebook">
-          <div class="icon">
-            <img src="/images/icon-facebook.svg" alt="Icone facebook">
-            <p>@nathanf</p>
+        <div class="card facebook">
+          <div class="card-content">
+            <header class="icon">
+              <img src="/images/icon-facebook.svg" alt="Icone facebook">
+              <p>@nathanf</p>
+            </header>
+            <article class="followers-content">
+              <p class="title-card">1987</p>
+              <p class="title-followers">f o l l o w e r s</p>
+            </article>
+            <footer class="card-footer">
+              <p class="title-up"><img src="/images/icon-up.svg" alt="Icone setinha para cima"> 12 Today</p>
+            </footer>
           </div>
-          <p>1987</p>
-          <p>f o l l o w e r s</p>
-          <p><img src="/images/icon-up.svg" alt="Icone setinha para cima"> 12 Today</p>
         </div>
-        <div class="twitter">
-          <div class="icon">
-            <img src="/images/icon-twitter.svg" alt="Icone Twitter">
-            <p>@nathanf</p>
+        <div class="card twitter">
+          <div class="card-content">
+            <header class="icon">
+              <img src="/images/icon-twitter.svg" alt="Icone Twitter">
+              <p>@nathanf</p>
+            </header>
+            <article class="followers-content">
+              <p class="title-card">1044</p>
+              <p class="title-followers">f o l l o w e r s</p>
+            </article>
+            <footer class="card-footer">
+              <p class="title-up"><img src="/images/icon-up.svg" alt="Icone setinha para cima"> 99 Today</p>
+            </footer>
           </div>
-          <p>1044</p>
-          <p>f o l l o w e r s</p>
-          <p><img src="/images/icon-up.svg" alt="Icone setinha para cima"> 99 Today</p>
         </div>
-        <div class="instagram">
-          <div class="icon">
-            <img src="/images/icon-instagram.svg" alt="Icone instagram">
-            <p>@realnathanf</p>
+        <div class="card instagram">
+          <div class="card-content">
+            <header class="icon">
+              <img src="/images/icon-instagram.svg" alt="Icone instagram">
+              <p>@realnathanf</p>
+            </header>
+            <article class="followers-content">
+              <p class="title-card">11k</p>
+              <p class="title-followers">f o l l o w e r s</p>
+            </article>
+            <footer class="card-footer">
+              <p class="title-up"><img src="/images/icon-up.svg" alt="Icone setinha para cima"> 1099 Today</p>
+            </footer>
           </div>
-          <p>11k</p>
-          <p>f o l l o w e r s</p>
-          <p><img src="/images/icon-up.svg" alt="Icone setinha para cima"> 1099 Today</p>
         </div>
-        <div class="youtube">
-          <div class="icon">
-            <img src="/images/icon-youtube.svg" alt="Icone youtube">
-            <p>Nathan F.</p>
+        <div class="card youtube">
+          <div class="card-content">
+            <header class="icon">
+              <img src="/images/icon-youtube.svg" alt="Icone youtube">
+              <p>Nathan F.</p>
+            </header>
+            <article class="followers-content">
+              <p class="title-card">8239</p>
+              <p class="title-followers">f o l l o w e r s</p>
+            </article>
+            <footer class="card-footer">
+              <p class="title-down"><img src="/images/icon-down.svg" alt="Icone setinha para baixo"> 144 Today</p>
+            </footer>
           </div>
-          <p>8239</p>
-          <p>f o l l o w e r s</p>
-          <p><img src="/images/icon-down.svg" alt="Icone setinha para baixo"> 144 Today</p>
         </div>
       </section>
 
       <section class="overview">
-        <h2>Overview - Today</h2>
+        <header class="overview-header">
+          <h2>Overview - Today</h2>
+        </header>
 
-        <section class="up">
-          <div class="facebook">
-            <section class="title">
-              <p>Page Views</p>
-              <img src="/images/icon-facebook.svg" alt="Icone de facebook">
-            </section>
-            <section class="text">
-              <p>87</p>
-              <p><img src="/images/icon-up.svg" alt="Icone para cima"> 303%</p>
-            </section>
+        <section class="line">
+          <div class="card-overview">
+            <header class="overview-card-header">
+              <p class="title-overview">Page views</p>
+              <img src="/images/icon-facebook.svg" alt="Icone Facebook">
+            </header>
+            <footer class="overview-card-footer">
+              <p class="number-overview">87</p>
+              <p class="up-title"> <img src="/images/icon-up.svg" alt="Icone UP"> 3%</p>
+            </footer>
           </div>
-
-          <div class="facebook">
-            <section class="title">
-              <p>Likes</p>
-              <img src="/images/icon-facebook.svg" alt="Icone de facebook">
-            </section>
-            <section class="text">
-              <p>52</p>
-              <p><img src="/images/icon-down.svg" alt="Icone para baixo"> -2%%</p>
-            </section>
+          <div class="card-overview">
+            <header class="overview-card-header">
+              <p class="title-overview">Likes</p>
+              <img src="/images/icon-facebook.svg" alt="Icone Facebook">
+            </header>
+            <footer class="overview-card-footer">
+              <p class="number-overview">52</p>
+              <p class="down-title"> <img src="/images/icon-down.svg" alt="Icone UP"> 2%</p>
+            </footer>
           </div>
-
+          <div class="card-overview">
+            <header class="overview-card-header">
+              <p class="title-overview">Likes</p>
+              <img src="/images/icon-instagram.svg" alt="Icone instagram">
+            </header>
+            <footer class="overview-card-footer">
+              <p class="number-overview">5462</p>
+              <p class="up-title"> <img src="/images/icon-up.svg" alt="Icone UP"> 2257%</p>
+            </footer>
+          </div>
+          <div class="card-overview">
+            <header class="overview-card-header">
+              <p class="title-overview">Profile views</p>
+              <img src="/images/icon-instagram.svg" alt="Icone instagram">
+            </header>
+            <footer class="overview-card-footer">
+              <p class="number-overview">52k</p>
+              <p class="up-title"> <img src="/images/icon-up.svg" alt="Icone UP"> 1375%</p>
+            </footer>
+          </div>
         </section>
 
+        <section class="line">
+          <div class="card-overview">
+            <header class="overview-card-header">
+              <p class="title-overview">Retweets</p>
+              <img src="/images/icon-twitter.svg" alt="Icone Twitter">
+            </header>
+            <footer class="overview-card-footer">
+              <p class="number-overview">117</p>
+              <p class="up-title"> <img src="/images/icon-up.svg" alt="Icone UP"> 303%</p>
+            </footer>
+          </div>
+          <div class="card-overview">
+            <header class="overview-card-header">
+              <p class="title-overview">Likes</p>
+              <img src="/images/icon-twitter.svg" alt="Icone Twitter">
+            </header>
+            <footer class="overview-card-footer">
+              <p class="number-overview">507</p>
+              <p class="up-title"> <img src="/images/icon-up.svg" alt="Icone UP"> 553%</p>
+            </footer>
+          </div>
+          <div class="card-overview">
+            <header class="overview-card-header">
+              <p class="title-overview">Likes</p>
+              <img src="/images/icon-youtube.svg" alt="Icone Youtube">
+            </header>
+            <footer class="overview-card-footer">
+              <p class="number-overview">107</p>
+              <p class="down-title"> <img src="/images/icon-down.svg" alt="Icone Down"> 19%</p>
+            </footer>
+          </div>
+          <div class="card-overview">
+            <header class="overview-card-header">
+              <p class="title-overview">Total views</p>
+              <img src="/images/icon-youtube.svg" alt="Icone Youtube">
+            </header>
+            <footer class="overview-card-footer">
+              <p class="number-overview">1407</p>
+              <p class="down-title"> <img src="/images/icon-down.svg" alt="Icone UP"> 12%</p>
+            </footer>
+          </div>
+        </section>
       </section>
     </main>
   </main>

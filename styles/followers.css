@@ -1,0 +1,84 @@
+.followers {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.card {
+    height: 34vh;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--light-blue-card);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card:hover {
+    filter: brightness(92.5%);
+    cursor: pointer;
+}
+
+.facebook {
+    border-top: 5px solid var(--facebook);
+}
+
+.twitter {
+    border-top: 5px solid var(--twitter);
+}
+
+.instagram {
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-image: top  linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%);
+}
+
+.youtube {
+    border-top: 5px solid var(--youtube);
+}
+
+.icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--light-blue-text);
+    font-weight: bold;
+}
+
+.icon img {
+    margin-right: 10px;
+}
+
+.title-card {
+    font-size: 55px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.title-followers {
+    text-transform: uppercase;
+    color: var(--light-blue-text);
+    font-size: 0.8rem;
+}
+
+.title-up, .title-down {
+    font-weight: bold;
+}
+
+.title-up {
+    color: var(--lime-green);
+}
+
+.title-down {
+    color: var(--bright-red);
+}
+
+.card-footer {
+    text-align: center;
+    margin-top: 30px;
+}
