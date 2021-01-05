@@ -5,7 +5,7 @@
 }
 
 .overview-header h2 {
-    color: var(--light-blue-text);
+    color: var(--text-color);
 }
 
 .line {
@@ -20,7 +20,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: var(--light-blue-card);
+    background: var(--card-color);
     border-radius: 6px;
     text-align: center;
     margin-top: 2rem;
@@ -40,7 +40,7 @@
 }
 
 .title-overview {
-    color: var(--light-blue-text);
+    color: var(--text-color);
     font-weight: 700;
 }
 

@@ -11,7 +11,7 @@ input[type=checkbox] {
 }
 
 .toggle p {
-    color: var(--light-blue-text);
+    color: var(--text-color);
     font-weight: 700;
 }
 
@@ -20,7 +20,7 @@ label {
     text-indent: -999px;
     width: 52px;
     height: 27px;
-    background-color: var(--toggle-light);
+    background-color: var(--toggle);
     float: right;
     border-radius: 100px;
     position: relative;
@@ -39,7 +39,7 @@ label::after {
 }
 
 input:checked + label {
-    background-color: var(--toggle-light);
+    background-color: var(--toggle);
 }
 
 input:checked + label::after {
