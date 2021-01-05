@@ -1,3 +1,7 @@
+h1 {
+    color: var(--text-black);
+}
+
 .followers {
     display: flex;
     justify-content: space-around;
@@ -32,9 +36,7 @@
 }
 
 .instagram {
-    border-top-width: 5px;
-    border-top-style: solid;
-    border-image: top  linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%);
+    border-top: 5px solid var(--instagram);
 }
 
 .youtube {
@@ -55,9 +57,10 @@
 }
 
 .title-card {
+    margin: 0;
     font-size: 55px;
     font-weight: 700;
-    margin: 0;
+    color: var(--text-black);
 }
 
 .title-followers {
