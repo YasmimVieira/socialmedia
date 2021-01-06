@@ -1,4 +1,7 @@
-# Frontend Mentor - Social media
+<h1 align="center">
+    📱 Landing page social media
+    <h5 align="center">Esse site é semelhante ao linktree, porém feito por mim.</h5>
+</h1>
 
 ![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)
 
