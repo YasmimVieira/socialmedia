@@ -12,3 +12,13 @@ avançar meus skills em HTML, CSS e Javascrpt
 - HTML
 - CSS
 - JavaScript
+
+## Link do projeto
+
+Para visualizar o projeto, basta acessar o link abaixo:
+
+> https://socialmediaend.netlify.app/
+
+## Autora
+
+Desenvolvido por [Yasmim Barbosa Vieira](https://linksdev.netlify.app/) - Desenvolvedora Front-end
